@@ -1,4 +1,4 @@
-> NetworkRecon - Lightweight Network Reconnaissance Tool
+NetworkRecon - Lightweight Network Reconnaissance Tool
 
 > Video Demonstration
 
@@ -18,7 +18,13 @@ NOTE: Always scan only systems you own or have explicit authorization to test.
 - Optional basic netcat throughput test (-n), if nc/pv are available.
 
 > Dependencies
-Ens
+
+Install these on the machine where you will be using this script.
+
+- bash
+- nmap (required) - scanning and service detection
+- nc / netcat (optional) - basic throughput test client
+- pv (optional) - progress indicator for netcat throughput test
 
 instructions for install
 usage guide with examples
