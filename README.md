@@ -1,14 +1,25 @@
 NetworkRecon - Lightweight Network Reconnaissance Tool
 
-link
+Video Demonstration
 
-Overview
+##Overview
 
-NetworkRecon is a lightwight, bash-based reconnaissance and vulnerability scanning tool designed for quick, targeted assessments of individual hosts, providing insights into open ports, running services, and potential security concerns.
+NetworkRecon is a compact Bash script for quick, targeted reconnaissance of a single host.  
+It performs a lightweight reachability check, TCP port scanning via nmap, optional service/version detection and light NSE vulnerability checks, optional netcat throughput testing, and writes everything to a single text report file.
 
-The script uses common Linux tools such as nmap, and netcat to:
-- Discover live hosts and open ports.
+NOTE:
+> Always scan only systems you own or have explicit authorization to test.
 
-dependencies
+Key Features
+
+- Single-host, low-impact reconnaissance (fast default scan using nmap -F).
+- Optional service/version detection (-s) and light vulnerability scripts (-v).
+- Suspicious-port alerting using a configurable default list.
+- Single consolidated text report.
+- Optional basic netcat throughput test (-n), if nc/pv are available.
+
+Dependencies
+Ens
+
 instructions for install
 usage guide with examples
