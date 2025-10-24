@@ -1,6 +1,6 @@
 NetworkRecon - Lightweight Network Reconnaissance Tool
 
-> Video Demonstration
+> *Video Demonstration
 
 > Overview
 
@@ -26,5 +26,5 @@ Install these on the machine where you will be using this script.
 - nc / netcat (optional) - basic throughput test client
 - pv (optional) - progress indicator for netcat throughput test
 
-instructions for install
-usage guide with examples
+*instructions for install
+*usage guide with examples
