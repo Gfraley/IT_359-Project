@@ -3,9 +3,11 @@
 # Example: ./NetworkRecon.sh -t 10.10.11.143 -s -v -o quick_report.txt
 # NOTE: Only scan systems you are authorized to test.
 
+# Exit script on any error & avoid splitting on spaces
 set -euo pipefail
 IFS=$'\n\t'
 
+# Set program name for errors & set timestamp for filenames
 PROGNAME=$(basename "$0")
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 
@@ -38,7 +40,7 @@ while getopts ":t:svp:n:o:h" opt; do
   esac
 done
 
-# Fail-fast: required target
+# Require target or fail
 if [[ -z "$TARGET" ]]; then
   echo "ERROR: target required. Example: $PROGNAME -t 192.168.1.5" >&2
   exit 2
