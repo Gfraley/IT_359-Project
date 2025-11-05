@@ -1,0 +1,3 @@
+Dependencies:
+NMAP
+Netcat
