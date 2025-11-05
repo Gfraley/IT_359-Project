@@ -1,3 +1,5 @@
 Dependencies:
-NMAP
-Netcat
+bash
+nmap (required) - scanning and service detection
+nc / netcat (optional) - basic throughput test client
+pv (optional) - progress indicator for netcat throughput test
