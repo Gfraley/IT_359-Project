@@ -1,0 +1,27 @@
+# NetworkRecon .gitignore
+
+# Generated scan reports
+report_*.txt
+
+# Logs, temp files, and backups
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# macOS Finder files
+.DS_Store
+
+# Linux/Unix junk files
+*~
+Thumbs.db
+
+# Environment or local config files
+.env
+*.local
+
+# Editors / IDE settings
+.vscode/
+.idea/
+*.code-workspace
