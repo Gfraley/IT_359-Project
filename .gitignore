@@ -1,3 +1,4 @@
 # NetworkRecon .gitignore
 
 .*
+**/
