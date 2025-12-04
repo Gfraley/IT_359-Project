@@ -1,6 +1,6 @@
 NetworkRecon - Lightweight Network Reconnaissance Tool
 
-> *Video Demonstration
+> Video Demonstration
 > link: https://youtu.be/7owF4n190Zg
 
 > Overview
@@ -28,7 +28,7 @@ Install these on the machine where you will be using this script.
 - pv (optional) - progress indicator for netcat throughput test
 
 > *instructions for install
-> *usage guide with examples
+> usage guide with examples
 > 
 > | Flag           | Description                                                           |
 > | -------------- | --------------------------------------------------------------------- |
