@@ -28,7 +28,12 @@ Install these on the machine where you will be using this script.
 - pv (optional) - progress indicator for netcat throughput test
 
 > *instructions for install
-> 
+Using Git:
+- git clone https://github.com/Gfraley/IT_359-Project.git
+- cd IT_359-Project
+Make the script executable:
+- chmod +x NetworkRecon.sh
+
 > usage guide with examples
 > 
 > | Flag           | Description                                                           |
