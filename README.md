@@ -27,7 +27,7 @@ Install these on the machine where you will be using this script.
 - nc / netcat (optional) - basic throughput test client
 - pv (optional) - progress indicator for netcat throughput test
 
-> *instructions for install
+> Instructions for install
 Using Git:
 - git clone https://github.com/Gfraley/IT_359-Project.git
 - cd IT_359-Project
